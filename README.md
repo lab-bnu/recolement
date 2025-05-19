@@ -1,7 +1,5 @@
 # Script pour fichiers de récolement
 
-## Concept
-
 Script utilisé par la Bibliothèque Nationale Universitaire de Strasbourg pour traiter les fichiers de récolement.
 
 ## Première installation (Windows)
