@@ -18,4 +18,6 @@ Et voilà, tout est prêt !
 ## Utilisation
 
 Placez dans le dossier 'rapports_récolement' les rapports à traiter, au format .xls
-Dans le Powershell, utlisez la commande `python recolement.py`. Les résultats se trouvent dans le fichier 'Suite de récolement.xlsx'
+Dans le Powershell, utlisez la commande 
+`python recolement.py` 
+Les résultats se trouvent dans le fichier 'Suite de récolement.xlsx'
