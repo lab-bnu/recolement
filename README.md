@@ -4,15 +4,15 @@ Script utilisé par la Bibliothèque Nationale Universitaire de Strasbourg pour 
 
 ## Première installation (Windows)
 
-Pour utiliser le script du récolement, il est nécessaire d'avoir [Python](https://www.python.org/downloads/) de téléchargé et d'installé.
+Télécharger et installer [Python](https://www.python.org/downloads/)
 
-Ensuite, il faut télécharger le [script](https://github.com/lab-bnu/recolement/blob/main/recolement.py), en cliquant sur le bouton 'Download raw file', et le placer dans le dossier de votre choix.
+Télécharger le [script](https://github.com/lab-bnu/recolement/blob/main/recolement.py), en cliquant sur le bouton 'Download raw file', et le placer dans le dossier de votre choix.
 
-Dans ce même dossier, on ajoute un dossier vide nommé 'rapports_récolement'.
+Dans ce même dossier, ajouter un dossier vide nommé 'rapports_récolement'.
 
-Dans ce dossier, il faut ouvrir un Powershell. Pour faire ça, dans l'explorateur de fichiers et dans le dossier où le script se trouve, il faut cliquer sur le chemin d'accès puis entrer `cmd`. Une fenêtre Powershell s'ouvre.
+Ouvrir un Powershell. Pour faire ça, dans l'explorateur de fichiers et dans le dossier où le script se trouve, il faut cliquer sur le chemin d'accès puis entrer `cmd`. Une fenêtre Powershell s'ouvre.
 
-Dans cette fenêtre, on peut vérifier que la bonne version de python est installée avec `python --version`.
+Dans cette fenêtre, vérifier que pythonn est installé avec `python --version`.
 
 Finalement, pour faire fonctionner le script, il faut télécharger les modules : `pip install pandas openpyxl`
 
