@@ -10,7 +10,6 @@ def find_one_file(path):
     xls = pd.ExcelFile(path)
     df1 = pd.read_excel(xls, 'Récolement')
     df2 = pd.read_excel(xls, 'Mal placé') 
-    print(type(df1['Code-barres'][0]))
     df1['Code-barres'] = df1['Code-barres'].astype(str)
     df2['Code-barres'] = df2['Code-barres'].astype(str)
     df1['Code-barres'] = df1.apply(lambda row: row['Code-barres'].replace('.0', ''), axis=1)
@@ -29,7 +28,6 @@ def find_one_file(path):
     df2_final = pd.concat([df2_final, df2[(df2['Description']=="Exemplaires en prêt")]], ignore_index=True, axis=0)
     df2_final = pd.concat([df2_final, df2[(df2['Description']=="Exemplaire avec demandes ou réservations")]], ignore_index=True, axis=0)
     df2_final = pd.concat([df2_final, df2[(df2['Type circulation']!="Prêt externe")]], ignore_index=True, axis=0)
-    print(df1_final.groupby('Etat copie').count())
     df_rec_malpla = pd.concat([df1_final, df2_final], ignore_index=True, axis=0)
     return df_rec_malpla
 
